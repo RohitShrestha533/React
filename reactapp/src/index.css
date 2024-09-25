@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(126, 129, 126, 0.312);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.nav {
+  width: 100%;
+  margin-top: 50px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  width: 40%;
+  padding: 0px 30px;
+  border-radius: 10px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(104, 103, 103);
+  outline: none;
+}
+
+.navbar a:hover {
+  bottom: 0;
+  border-bottom: 5px solid rgba(159, 5, 159, 0.477);
+}
+
+.body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.boxes {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+  margin: 35px;
+  color: aliceblue;
+  background-color: white;
+  height: auto;
+}
+.boxes .head {
+  display: flex;
+  flex-direction: column;
+}
+.head p {
+  margin-top: 4px;
+  color: rgba(135, 133, 133, 0.644);
+}
+.head h6 {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  padding: 2px;
+  color: rgba(135, 133, 133, 0.644);
+  border-radius: 50%;
+  border: 3px solid rgba(132, 130, 130, 0.51);
+}
+.topic {
+  color: rgba(33, 33, 33, 0.971);
+  font-size: 3rem;
+}
+.content {
+  color: rgba(130, 129, 129, 0.84);
+}
+.break {
+  display: flex;
+  margin-top: 15px;
+  letter-spacing: 3px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(8, 9, 9, 0.715);
+}
+.break hr {
+  width: 74%;
+  height: 1px;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+  gap: 5px;
+}
+.image img {
+  object-fit: cover;
+  width: 100%;
+}
+.image button {
+  display: flex;
+  margin-left: auto;
+  padding: 5px;
+  color: rgba(111, 109, 109, 0.705);
+  background-color: white;
+  border: 3px solid rgba(132, 130, 130, 0.401);
+}

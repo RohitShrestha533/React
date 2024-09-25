@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edecf1;
+}
+#navbar {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  width: 1400px;
+  padding: 10px;
+  height: 50px;
+  justify-content: space-between;
+  box-shadow: 0.7px 0.7px 0.7px 0.7px rgba(52, 51, 51, 0.49);
+  margin: 10px;
+}
+.navbar form {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.logo h1 {
+  color: #878788e8;
+}
+.logo {
+  margin-right: 50px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1400px;
+}
+form input {
+  height: 70%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: white;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  width: 350px;
+}
+
+form i {
+  font-size: large;
+  color: #878788e8;
+  background-color: white;
+  height: 70%;
+  display: flex;
+  padding-right: 15px;
+  box-sizing: border-box;
+  padding-top: 8px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+form select {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.782);
+  margin-left: 10px;
+  outline: none;
+  display: flex;
+  border: none;
+  background-color: #edecf1;
+}
+.Carboc {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 1px 1px 1px 1.4px rgba(0, 0, 0, 0.179);
+}
+.Carboc .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+img {
+  height: 250px;
+  object-fit: cover;
+}
+.Carboc h5 {
+  color: rgba(0, 0, 0, 0.833);
+  font-size: 24px;
+}
+.Carboc h6 {
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  border-radius: 50px;
+  color: rgba(0, 0, 0, 0.611);
+  padding: 4px;
+  font-size: 10px;
+}
+.cardetails {
+  width: 100%;
+  display: flex;
+}
+.cardetails .details1,
+.cardetails .details2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardetails .info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.cardetails .info i {
+  color: rgba(0, 0, 255, 0.518);
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+.bottom .icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.bottom .icon i {
+  border: 0.5px solid rgba(0, 0, 0, 0.232);
+  padding: 2px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 30, 255, 0.307);
+  color: rgba(0, 0, 255, 0.603);
+}
+
+.bottom .icon button {
+  padding: 10px;
+  background-color: rgb(12, 118, 224);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: 550;
+  letter-spacing: 0.01px;
+}
