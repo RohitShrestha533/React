@@ -1,0 +1,66 @@
+.contactpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefbfb;
+  padding-top: 5vh;
+  height: 90vh;
+  width: 100%;
+}
+.contactpage .intro {
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-variant: small-caps;
+  color: #d52c3e;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 4vw;
+}
+.contact .map {
+  width: 35%;
+  height: 70%;
+  background-color: aliceblue;
+}
+.contact .contactdetail {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(183, 181, 181, 0.927);
+}
+.contactdetail .contactline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.contactline .contactlogo {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid#d52c3e;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 2.5rem;
+  color: #d52c3e;
+}
+.contactlogo-describe {
+  width: 70%;
+  color: #222121;
+}

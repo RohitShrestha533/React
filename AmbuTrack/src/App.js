@@ -2,10 +2,12 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import hospital from "./components/Hospital";
 import Ambulance from "./components/Ambulance";
 import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
+import Hospital from "./components/Hospital";
 
 // Arrow function for Header
 const Header = () => {
@@ -16,7 +18,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <Header />
 
       <Routes>
         {/* Correctly close the Home component */}
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ambulance" element={<Ambulance />} />
+        <Route path="/hospital" element={<Hospital />} />
       </Routes>
     </div>
   );

@@ -7,13 +7,13 @@
   display: flex;
   height: 10vh;
   align-items: center;
-  background-color: red;
+  background-color: #d52c3e;
   color: white;
   font-size: larger;
   font-family: "Courier New", Courier, monospace;
   justify-content: space-around;
 }
-Link {
+.main-nav a {
   color: white;
   outline: none;
   text-decoration: none;
