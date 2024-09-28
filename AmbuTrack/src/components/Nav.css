@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-nav {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  background-color: red;
+  color: white;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: space-around;
+}
+Link {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
